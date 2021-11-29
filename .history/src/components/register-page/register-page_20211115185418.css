@@ -1,0 +1,23 @@
+@keyframes showForm {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#registerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#enter_form {
+    animation-name: showForm;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}

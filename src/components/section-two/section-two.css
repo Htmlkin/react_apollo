@@ -1,0 +1,122 @@
+#section_two {
+}
+
+.section_two_wrapper {
+    max-width: 1460px;
+    margin: 0 auto;
+}
+
+#section_two h2 {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+    color: #272d4e;
+}
+
+#section_two .grid_row {
+    display: grid;
+    margin: 81px auto 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1490px;
+}
+
+#section_two .grid_row .grid_column {
+    width: 435px;
+    margin: 0 auto;
+}
+
+#section_two .grid_row > .grid_column:nth-child(1) {
+    margin-top: 0px;
+}
+#section_two .grid_row > .grid_column:nth-child(2) {
+    margin-top: 70px;
+}
+#section_two .grid_row > .grid_column:nth-child(3) {
+    margin-top: 100px;
+}
+
+#section_two .grid_column .grid_column_wrap > h3 {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 70px;
+    color: #272d4e;
+    text-align: left;
+}
+
+#section_two .grid_column .grid_column_wrap p {
+    color: #94a2b3;
+}
+
+#section_two .grid_column .grid_column_wrap a {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+#section_two .images_block {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#section_two .payment_img {
+    position: absolute;
+    left: -99px;
+    top: 55px;
+}
+
+#section_two .apple_pay_img {
+    position: absolute;
+    left: -72px;
+    top: 8px;
+}
+#section_two .square_img {
+    position: absolute;
+    left: 47px;
+    top: -41px;
+}
+#section_two .mailchamp_img {
+    position: absolute;
+    right: 42px;
+    top: 22px;
+}
+
+#section_two .facebook_img {
+    position: absolute;
+    left: 47px;
+    top: 115px;
+}
+
+#section_two .jetpack_img {
+    position: absolute;
+    left: 230px;
+    top: 140px;
+}
+
+#section_two .ads_img {
+    position: absolute;
+    left: 165px;
+    bottom: -17px;
+}
+
+#section_two .active_two_img {
+    position: absolute;
+    right: 44px;
+    top: -130px;
+}
+#section_two .active_three_img {
+    position: absolute;
+    left: 37px;
+    top: -41px;
+}
+#section_two .active_four_img {
+    position: absolute;
+    right: -65px;
+    bottom: 77px;
+}

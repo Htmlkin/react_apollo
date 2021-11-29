@@ -1,0 +1,29 @@
+@keyframes showForm {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+#registerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#enter_form {
+    animation-name: showForm;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+.signup,
+.signup a {
+    text-align: center;
+    font-size: 14px;
+}

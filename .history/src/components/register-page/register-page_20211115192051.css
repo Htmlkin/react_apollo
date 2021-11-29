@@ -1,0 +1,71 @@
+@keyframes showForm {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#registerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.register_form {
+    display: inline-block;
+    padding: 30px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0px 14px 24px rgba(187, 187, 187, 0.14));
+    animation: showForm;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    position: sticky;
+    z-index: 2;
+}
+
+#registerContent .outerBox {
+    position: absolute;
+    top: calc(50% - 130px);
+    left: calc(50% - 150px);
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+    background: rgb(224, 224, 224);
+    z-index: 1;
+}
+
+.register_form input {
+    line-height: 24px;
+    width: 250px;
+    padding: 5px 20px;
+    color: slategray;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0px solid #acc4de;
+    background: rgb(243, 243, 243);
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+.register_form h2 {
+    display: block;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    color: rgb(155, 92, 143);
+    margin-bottom: 20px;
+}
+
+.signup,
+.signup a {
+    text-align: center;
+    font-size: 14px;
+}

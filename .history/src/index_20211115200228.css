@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('/src/fonts/CircularStd-Bold.eot');
+    src: local('/src/fonts/Circular Std Bold'),
+        local('../fonts/CircularStd-Bold'),
+        url('/src/fonts/CircularStd-Bold.eot?#iefix')
+            format('embedded-opentype'),
+        url('/src/fonts/CircularStd-Bold.woff2') format('woff2'),
+        url('/src/fonts/CircularStd-Bold.woff') format('woff'),
+        url('/src/fonts/CircularStd-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+html,
+body {
+    background-image: url(/src/img/bg_gradient.png);
+    background-position: top;
+    background-repeat: repeat-x;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    height: 100%;
+}
+a {
+    color: #299ef3;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7854f7;
+}
+
+.formButton {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    background: #7854f7;
+    padding: 10px 30px;
+    border: none;
+    color: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+#wrapper {
+    position: relative;
+    max-width: 2560px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(/src/img/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: top -543px right -810px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    max-width: 1920px;
+    margin: 0 auto;
+    flex: 1 1 auto;
+}
+
+/* .anim_p {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: all 1000ms ease;
+}
+
+.anim_p._active_p {
+    opacity: 1;
+    transform: scale(1);
+} */

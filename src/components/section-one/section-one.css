@@ -1,0 +1,143 @@
+#section_one {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.section_one_wrapper {
+    max-width: 1460px;
+    margin: 0 auto;
+}
+/* 2.1 - Section One - Left Side */
+#section_one .left_side {
+    display: flex;
+    padding-left: 45px;
+    flex-direction: column;
+    grid-column: 1/3;
+}
+
+#section_one .left_side p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 29px 0 0 0;
+    color: #94a2b3;
+}
+
+#section_one .left_side h1 {
+    display: inline-block;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 85px;
+    line-height: 95px;
+    color: #272d4e;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#section_one .left_side .start_store {
+    display: flex;
+    margin: 31px 0 0 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#section_one .left_side a.start_button {
+    display: inline-block;
+    background: #7854f7;
+    border-radius: 60px;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 25px 60px;
+    transition: background-color 500ms;
+}
+
+#section_one .left_side a.start_button:hover {
+    background: #5470f7;
+}
+
+#section_one .left_side .customize_link {
+    margin: 0 0 0 12px;
+}
+
+/* 2.2 - Section One - Right Side */
+
+#section_one .right_side {
+    display: flex;
+    grid-column: 3/4;
+}
+
+#section_one .images_block {
+    min-width: 845px;
+    height: 829px;
+    display: flex;
+    position: relative;
+}
+
+#section_one .right_side .dot_one {
+    position: absolute;
+    top: 0;
+    right: 160px;
+    z-index: 1;
+}
+
+#section_one .right_side .dot_two {
+    position: absolute;
+    top: 182px;
+    left: 0px;
+    z-index: 1;
+}
+#section_one .right_side .dot_three {
+    position: absolute;
+    bottom: 0;
+    right: 3px;
+    z-index: 1;
+}
+
+#section_one .right_side .product_img {
+    position: absolute;
+    top: 141px;
+    right: -187px;
+    z-index: 2;
+    width: 907.54px;
+    height: 421.66px;
+}
+
+#section_one .right_side .girls_img {
+    position: absolute;
+    z-index: 3;
+    left: 47 px;
+    top: 40px;
+}
+#section_one .right_side .payment_top_img {
+    position: absolute;
+    z-index: 3;
+    right: 150px;
+    bottom: 50px;
+}
+
+#section_one .right_side .sale_img {
+    position: absolute;
+    z-index: 3;
+    right: 304px;
+    top: 114px;
+}
+
+#section_one .right_side .safe_img {
+    position: absolute;
+    z-index: 3;
+    right: 80px;
+    bottom: 221px;
+}
+#section_one .right_side .card_img {
+    position: absolute;
+    z-index: 3;
+    right: 672px;
+    top: 468px;
+}

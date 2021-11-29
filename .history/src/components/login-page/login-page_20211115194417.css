@@ -1,0 +1,59 @@
+@keyframes showLogin {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+#loginContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.enter_form {
+    display: inline-block;
+    padding: 30px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0px 14px 24px rgba(187, 187, 187, 0.14));
+    position: sticky;
+    z-index: 2;
+    animation: showLogin;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+}
+
+.enter_form input {
+    line-height: 24px;
+    width: 250px;
+    padding: 5px 20px;
+    color: slategray;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0px solid #acc4de;
+    background: rgb(243, 243, 243);
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+.enter_form h2 {
+    display: block;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    color: rgb(155, 92, 143);
+    margin-bottom: 20px;
+}
+.signin,
+.signin a {
+    text-align: center;
+    font-size: 14px;
+}

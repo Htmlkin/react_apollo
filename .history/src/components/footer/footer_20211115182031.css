@@ -1,0 +1,31 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 68px;
+}
+
+.icons_block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons_block a {
+    display: inline-block;
+    padding: 20px;
+}
+
+.copyright_block {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: #272d4e;
+}
+
+.logo_block {
+    padding-right: 20xp;
+}

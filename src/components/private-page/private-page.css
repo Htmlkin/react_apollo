@@ -1,0 +1,9 @@
+#privateContent {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: nowrap;
+}
+#all_films_section {
+    display: flex;
+}

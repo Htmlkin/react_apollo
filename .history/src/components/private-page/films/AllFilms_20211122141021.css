@@ -1,0 +1,39 @@
+#all_films_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.film_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px 20px 30px 20px;
+    font-size: 16px;
+    color: gray;
+    background: #fff;
+    position: relative;
+}
+
+#all_films_section h1 {
+    margin: 30px 0;
+}
+
+.film_block .ttl {
+    font-size: 18px;
+    color: rgb(22, 60, 99);
+    font-weight: 600;
+}
+
+.id {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    font-size: 10px;
+}

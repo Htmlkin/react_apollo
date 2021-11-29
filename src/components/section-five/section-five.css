@@ -1,0 +1,109 @@
+/* #section_five {
+}
+
+.section_five_wrapper {
+} */
+
+#section_five .ppl_block {
+    text-align: center;
+    background: url(/src/img/all_ppl.png) center bottom no-repeat;
+    padding-bottom: 300px;
+}
+#section_five .ppl_block h2 {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+    color: #272d4e;
+}
+#section_five .ppl_block p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #94a2b3;
+    display: block;
+    max-width: 660px;
+    margin: 31px auto 0;
+}
+
+#section_five .platform_block_grid {
+    background: #5f37ef;
+    min-height: 261px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.platform_block_grid .column_center {
+    grid-column: 2/4;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 52px;
+    color: #ffffff;
+}
+.platform_block_grid .column_right {
+    grid-column: 4/5;
+    text-align: left;
+}
+
+a.get_started {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    padding: 26px 46px;
+    text-transform: uppercase;
+}
+
+.support_block_grid_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    min-height: 150px;
+    align-items: center;
+    background: #7854f7;
+    color: white;
+}
+
+.support_block_inside {
+    margin: 50px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 52px;
+}
+
+.support_block_inside strong {
+    font-weight: 500;
+}
+
+.support_block_logo {
+    grid-column: 1/5;
+    margin: 100px 0 56px;
+}
+
+.support_block_inside .fa-regular,
+.support_block_inside .fa-solid {
+    margin-right: 10px;
+    font-size: 36px;
+}

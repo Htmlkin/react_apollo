@@ -1,0 +1,83 @@
+header {
+    padding: 37px 55px 0;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+}
+
+.header_left {
+    display: flex;
+}
+
+.block_menu {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.top_menu > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 144px;
+}
+
+.top_menu > ul > li {
+    list-style: none;
+    margin-left: 38px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #272d4e;
+}
+
+.top_menu > ul > li a {
+    color: #272d4e;
+    text-decoration: none;
+    padding: 10px;
+    background: none;
+    transition: color 500ms;
+}
+.top_menu > ul > li a:hover {
+    color: #7854f7;
+}
+
+.header_right {
+    display: flex;
+}
+
+.header_right .login_button {
+    min-width: 135px;
+    max-height: 45px;
+    display: inline-block;
+    color: #ffffff;
+    background: #7854f7;
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: transform 500ms;
+    z-index: 999;
+    border: none;
+}
+
+.header_right .login_button:hover {
+    background: #5470f7;
+    transform: scale(1.05);
+}
+
+.fa-user {
+    margin: 0 10px 0 0;
+}

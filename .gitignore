@@ -5,6 +5,15 @@
 /.pnp
 .pnp.js
 
+#backups
+/TMP
+
+#History
+
+/.history
+/.idea
+/.vscode
+
 # testing
 /coverage
 

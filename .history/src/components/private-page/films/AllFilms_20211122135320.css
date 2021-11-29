@@ -1,0 +1,12 @@
+#all_films_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+}
+
+.film_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}

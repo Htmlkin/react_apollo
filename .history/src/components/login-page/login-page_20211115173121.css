@@ -1,0 +1,39 @@
+#loginContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#enter_form {
+    display: inline-block;
+    padding: 30px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 2px 2px 25px 25px rgba(0, 0, 0, 0.05); */
+    filter: drop-shadow(0px 14px 24px rgba(187, 187, 187, 0.14));
+}
+
+#enter_form input {
+    line-height: 24px;
+    width: 250px;
+    padding: 5px 20px;
+    color: slategray;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0px solid #acc4de;
+    background: rgb(243, 243, 243);
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+#enter_form h2 {
+    display: block;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    color: rgb(155, 92, 143);
+    margin-bottom: 20px;
+}

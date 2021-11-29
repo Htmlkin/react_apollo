@@ -1,0 +1,10 @@
+#registerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#enter_form {
+    opacity: 0;
+}
